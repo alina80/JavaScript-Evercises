@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="css/exercise1.css">
+  <title>Progressbar</title>
+</head>
+<body>
+<div class="container">
+  <div class="row top15">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-sm-offset-3">
+
+      <div class="input-group input-group-lg">
+        <input type="text" name="spinnerValue" id="spinnerValue" class="form-control" placeholder="Value" value="0"
+               readonly>
+        <span class="input-group-addon"><button class="btn btn-primary btn-xs"><i
+                class="fa fa-arrow-circle-up"></i></button></span>
+        <span class="input-group-addon"><button class="btn btn-primary btn-xs"><i
+                class="fa fa-arrow-circle-down"></i></button></span>
+      </div>
+    </div>
+  </div>
+  <div class="row top15">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-sm-offset-3">
+      <table class="table table-striped">
+        <tr>
+          <td><label>Minimal value:</label></td>
+          <td><input id="min" value="0"></td>
+        </tr>
+        <tr>
+          <td><label>Maximal value:</label></td>
+          <td><input id="max" value="100"></td>
+        </tr>
+        <tr>
+          <td><label>Step:</label></td>
+          <td><input id="step" value="1"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-sm-offset-3">
+      <button class="btn btn-warning saveSettings"><i class="fa fa-floppy-o"></i></button>
+    </div>
+  </div>
+  <div class="row top15">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-sm-offset-3">
+      <div class="progressBar">
+        <div class="progressInner" style="width: 26%;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

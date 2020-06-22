@@ -1,0 +1,102 @@
+body {
+    font-size   : 14px;
+    line-height : 28px;
+}
+
+/*Styles for exercise 1*/
+.cart-item {
+    border        : 1px solid #000000;
+    width         : 400px;
+    margin        : 20px;
+    padding       : 20px;
+    overflow      : hidden;
+    border-radius : 5px;
+    display       : block;
+}
+
+.cart-updated {
+    border : 2px solid green;
+}
+
+.added {
+    color            : #0086ff;
+    background-color : #bbbbbb;
+}
+
+.added:hover {
+    background-color : #bbbbbb;
+    cursor           : default;
+}
+
+.item-desc {
+    float : left;
+}
+
+.item-qty {
+    float       : left;
+    margin-left : 50px;
+}
+
+.update-container {
+    float    : right;
+    overflow : hidden;
+}
+
+button {
+    background    : #0086ff;
+    border        : none;
+    border-radius : 4px;
+    padding       : 0 10px;
+    color         : #ffffff;
+    font-size     : 14px;
+    line-height   : 28px;
+    transition    : .2s all linear;
+    outline       : none;
+    cursor        : pointer;
+}
+
+button:hover {
+    background-color : darken(#0086ff, 10%);
+}
+
+/*Styles for exercise 2*/
+ul {
+    margin     : 20px;
+    list-style : none;
+}
+
+li {
+    width         : 300px;
+    border        : 1px solid #333333;
+    margin-bottom : 20px;
+}
+
+h2 {
+    margin     : 0;
+    background : #333333;
+    color      : #ffffff;
+    padding    : 20px;
+}
+
+.expand {
+    color : #ffffff;
+    float : right;
+}
+
+.container {
+    height     : 100px;
+    padding    : 25px;
+    position   : relative;
+    box-sizing : border-box;
+}
+
+.close {
+    color    : green;
+    position : absolute;
+    bottom   : 15px;
+    right    : 15px;
+}
+
+span[data-task^=_task] {
+    display : none;
+}
