@@ -1,6 +1,27 @@
 function canCreateTriangle(a, b, c) {
     // Refer to the numbers through variables a, b, and c.
     // Remember to return correct data (true or false).
+    if (a + b > c){
+        if (c + b > a){
+            if (a + c > b){
+                var result = 'Numbers ' + a +','+'b'+','+' can be the sides of a triangle';
+                console.log(result);
+                return true;
+            }else{
+                var result = 'Numbers ' + a +','+'b'+','+' can be the sides of a triangle';
+                console.log(result);
+                return false;
+            }
+        }else{
+            var result = 'Numbers ' + a +','+'b'+','+' can be the sides of a triangle';
+            console.log(result);
+            return false;
+        }
+    }else{
+        var result = 'Numbers ' + a +','+'b'+','+' can be the sides of a triangle';
+        console.log(result);
+        return false;
+    }
 }
 
 console.log("Numbers 5, 6, 4 can be sides of a triangle (should return true) " + canCreateTriangle(5, 6, 4));

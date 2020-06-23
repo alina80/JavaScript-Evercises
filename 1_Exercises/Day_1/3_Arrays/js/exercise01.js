@@ -1,6 +1,12 @@
 function isNumbersGrowing(array) {
     // You can refer to the array through the array variable.
     // Remember to return correct data (true or false).
+    for (var i = 0; i < array.length - 1; i++){
+        if (array[i] > array[i + 1]){
+            return false;
+        }
+    }
+    return true;
 }
 
 console.log("array [1,2,3,4,5,6,7] is ascending (should return true) " + isNumbersGrowing([1,2,3,4,5,6,7]));

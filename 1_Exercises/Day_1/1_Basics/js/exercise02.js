@@ -4,16 +4,22 @@ function myEval(a, b, operation) {//defining myEval function that takes 3 parame
     switch (operation) {
         case'+':
             result = a + b;
+            break;
         case'-':
-            result = a - value.b;
+            result = a - b;
+            break;
         case'/':
             result = a / b;
+            break;
         case'*':
             result = a * b;
+            break;
         case'%':
             result = a % b;
-        case'*':
+            break;
+        case'^':
             result = Math.pow(a, b);//using a built-in object that calculates a to the power of b
+            break;
     }
     return result;//returniing the result of the function
     //End of function boy
