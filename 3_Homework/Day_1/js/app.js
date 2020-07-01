@@ -105,8 +105,9 @@ console.log(getFirstWrongElement([1, 8, 32, 128, 1024]));
 
 var getLastNumbers = function (num, array) {
     var result = [];
-    if (!isNaN(num)){
+    if (arguments.length > 1 && !isNaN(num)){
         return array.splice(array.length - num,num);
+        // return array.slice(array.length - num, array.length);
     }
     return result;
 }
