@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <title>CodersLab</title>
     <link rel="stylesheet" href="style/style.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var width = document.getElementById('windowWidth');
+            var height = document.getElementById('windowHeight');
+
+            window.addEventListener('resize', function (event) {
+                width.innerText = window.outerWidth;
+                height.innerText = window.outerHeight;
+            });
+        });
+    </script>
 </head>
 <body>
 
