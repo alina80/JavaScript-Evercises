@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     invoiceData.setAttribute('style','display:none');
     checkInvoice.addEventListener('click', function (event) {
-        console.log(this);
         if (this.checked){
             this.parentElement.parentElement.nextElementSibling.removeAttribute('style');
         }else {
