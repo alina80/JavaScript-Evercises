@@ -6,7 +6,7 @@ exercise<img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="
 
 **IMPORTANT - do not change the file structure or filenames and use the prepared variables**
 
-#### Exercise 1 - done with the lecturer
+#### Exercise 1
 
 1. In`exercise01.js`, create a function named ```checkArray``` that will take a two-dimensional array with integers as a parameter.
 2. The function should return a new array with booleans ```true``` or ```false``` as its elements, depending on the element of the array in the second dimension being even or not.

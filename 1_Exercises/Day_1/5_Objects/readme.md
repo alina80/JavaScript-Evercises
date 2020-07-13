@@ -9,7 +9,7 @@
 
 Complete the exercises in `app.js` unless the exercise description says otherwise.
 
-#### Exercise 1 - done with the lecturer
+#### Exercise 1
 
 1. Using prototype, add the ```upperLower``` method to the built-in JavaScript ```String``` object.
 2. The method will replace the given string of characters so that any odd character in a word will be replaced by a lowercase letter, and even - by an uppercase letter.
@@ -31,7 +31,7 @@ var funnyTextWithSpace = "Javascript is great".upperLower();
 jAvAsCrIpT iS gReAt
 ```
 
-#### Exercise 2 - done with the lecturer
+#### Exercise 2
 
 1. Create a `Car` object and give it appropriate attributes:
    * make,

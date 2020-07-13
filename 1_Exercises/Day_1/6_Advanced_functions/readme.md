@@ -9,7 +9,7 @@
 
 Complete the exercises in `app.js` unless the exercise description says otherwise.
 
-#### Exercise 1 - done with the lecturer
+#### Exercise 1
 
 1. In `app.js`, write a function named```boilEgg``` that will take time in seconds as a parameter, and calling the function will cause the following message to be displayed in the console after a given time:  
    `egg boiled`

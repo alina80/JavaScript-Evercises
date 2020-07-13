@@ -6,21 +6,21 @@ exercise<img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="
 
 **IMPORTANT - do not change the file structure or filenames and use the prepared variables**
 
-#### Exercise 1 - done with the lecturer
+#### Exercise 1
 
 Take a look at `exercise01.js`. You will find there a scheme of a function that takes an array.
 
 1. Add the body of the function in a way that the function returns ```true``` (boolean) when the array has numbers in ascending order (each number is greater than the previous one), and ```false``` otherwise.
 2. Remember to use the keyword ```return```.
 
-#### Exercise 2 - done with the lecturer
+#### Exercise 2
 
 1. In `exercise02.js`, write two functions named ```add(array)``` and ```multiply(array)```
 2. Both of them should take only one parameter - an array.
 3. The ```add``` function should add all numbers that are in the array (using a `for` loop)
 4. The ```multiply``` function should multiply all numbers that are in the array (using a `for` loop).
 
-#### Exercise 3 - done with the lecturer
+#### Exercise 3
 
 1. In `exercise03.js`, write a function named ```distFromAverage``` that  will take an array of numbers as a parameter.
 2. Each field of the array returned by the function should store the difference between the number from the same field in the input array and the average of the input array.

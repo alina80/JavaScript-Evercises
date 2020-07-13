@@ -30,11 +30,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     document.querySelector('button').addEventListener('click',function (event) {
-
+        event.preventDefault();
         var result = validateForm();
-        if (!result){
-            event.preventDefault();
-        }else {
+        if (result){
             var row = document.createElement('tr');
             var col1 = document.createElement('td');
             col1.innerText = team1.value;
@@ -46,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
             col3.innerText = score1.value + ' - ' + score2.value;
             row.appendChild(col3);
             document.querySelector('table').appendChild(row);
-            event.preventDefault();
+
         }
 
     })

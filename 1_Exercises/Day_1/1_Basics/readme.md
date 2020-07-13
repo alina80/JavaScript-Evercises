@@ -6,7 +6,7 @@
 
 **IMPORTANT - do not change the file structure or filenames and use the prepared variables**
 
-#### Exercise 1 - done with the lecturer
+#### Exercise 1
 
 Take a look at `exercise01.js`.  
 You will find there code of a function that draws a number from the range `1-100`.  
@@ -24,7 +24,7 @@ Drawn number: 8
 
 Complete the exercise in the same file.
 
-#### Exercise 2 - done with the lecturer
+#### Exercise 2
 
 In `exercise02.js` you will find a sample function that calculates simple equations.
 Because functions will be shown in the next chapter, now we only deal with the body of this function.

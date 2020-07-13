@@ -6,7 +6,7 @@
 
 **IMPORTANT - do not change the file structure or filenames and use the prepared variables**
 
-#### Exercise 1 - done with the lecturer
+#### Exercise 1
 
 1. In `exercise01.js`, create a function that will ```return``` the sum of three numbers.
 2. The numbers should be passed to the function as parameters.
@@ -19,7 +19,7 @@ output -> 6
 
 Complete the exercise in the same file.
 
-#### Exercise 2 - done with the lecturer
+#### Exercise 2
 
 1. In `exercise02.js`, create a function that calculates the area and circumference of a circle.
 2. The function takes the radius as a parameter.
